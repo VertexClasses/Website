@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+.contact-us-heading {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 91px;
+    letter-spacing: 0.05em;
+    color: #FF8D32;
+    margin-left: 8rem;
+}
+
+.divider {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+label {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    letter-spacing: 0.05em;
+    color: #6D6D6D;
+}
+
+.lower-section-contactus {
+    height: 16px;
+    background: #A43CFF;
+    margin-top: 4rem;
+}
+
+#name,
+#phone,
+#email {
+    height: 48px;
+    width: 411px;
+    background: #6D6D6D;
+    border-radius: 6px;
+    color: rgb(225, 224, 223);
+}
+
+#message {
+    width: 411px;
+    height: 222px;
+    background: #6D6D6D;
+    border-radius: 6px;
+    color: rgb(225, 224, 223);
+}
+
+.contactus-right {
+    display: flex;
+    flex-direction: column;
+    /* align-items: end; */
+}
+
+.contactus-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.newButton {
+    margin-left: 17.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1372px) {
+    .newButton {
+        margin-left: 11rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .contact-us-heading {
+        font-size: 40px;
+        margin-left: 2rem;
+    }
+
+    .newButton {
+        margin-left: 12.5rem;
+    }
+
+    #name,
+    #phone,
+    #email,
+    #message {
+        width: 320px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:832px) {
+
+    form {
+        width: 320px;
+        /* margin-left: 15px; */
+        margin-right: 5rem;
+    }
+
+    .contact-us-image {
+        height: 340px;
+    }
+
+    label {
+        margin-left: 30px;
+    }
+
+    .newButton {
+        margin-right: 60px;
+    }
+}

@@ -1,0 +1,41 @@
+.title-courses-offered {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 91px;
+    letter-spacing: 0.05em;
+    color: #FF8D32;
+    margin-left: 8rem;
+}
+
+.course-card {
+    width: 430px;
+}
+
+.courses-offered {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lower-section-coursesoffered {
+    height: 16px;
+    background: #3A8EFC;
+    margin-top: 4rem;
+}
+
+.course-offered {
+    padding: 2rem;
+}
+
+@media screen and (max-width:1000px) {
+    .title-courses-offered {
+        font-size: 40px;
+        margin-left: 2rem;
+    }
+
+    .course-card {
+        width: 300px;
+    }
+}

@@ -1,0 +1,37 @@
+.marquee-container {
+    height: 32px;
+    background-color: #FCD444;
+    overflow: hidden;
+    position: fixed;
+    z-index: -1;
+}
+
+.marquee-text {
+    white-space: nowrap;
+    display: inline-block;
+    animation: marquee 1500s linear infinite;
+    margin-right: 4rem;
+    margin-top: 0.45rem;
+    /* Add 4 rem space between each message */
+    align-items: center;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .marquee-container {
+        height: 23px;
+    }
+
+    .marquee-text {
+        font-size: 0.7rem;
+    }
+}

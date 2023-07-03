@@ -1,0 +1,45 @@
+/* .marquee-text-hero {
+    width: 14400000000000000000000000000000000000000000000000000000px;
+    height: 32px;
+    background: #FF9C3B;
+    color: #000000;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+} */
+
+.marquee-container1 {
+    height: 32px;
+    background-color: #FF9C3B;
+    overflow: hidden;
+}
+
+.marquee-text1 {
+    white-space: nowrap;
+    display: inline-block;
+    animation: marquee 2500s linear infinite;
+    margin-right: 4rem;
+    margin-top: 0.45rem;
+    /* Add 4 rem space between each message */
+    align-items: center;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .marquee-text1 {
+        margin-top: 0.7rem;
+        font-size: 0.8rem;
+    }
+}

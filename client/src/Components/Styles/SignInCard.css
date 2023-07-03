@@ -1,0 +1,120 @@
+/*Most of the styles have be derived from the Signup page only*/
+/*This file just includes the external styles*/
+
+.extreme-lower-section-sign-in {
+    /* display: flex;
+    justify-content: space-between; */
+    /* margin-right: auto; */
+    /* margin-top: 1rem; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.extreme-lower-section-sign-in .already-have-an-account {
+    margin-left: 2rem;
+}
+
+.extreme-lower-section-sign-in .forgot-your-password {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    color: #888888;
+    margin-right: auto;
+}
+
+.extreme-lower-section-sign-in .sign-in-redirect {
+    margin-left: 2rem;
+}
+
+.sign-in-register {
+    margin-left: 3rem;
+    width: 516px;
+    height: 48px;
+    background: #FBCC37;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.btn-sign-in-with-google {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 516px;
+    height: 48px;
+    background: #D3D3D3;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.sign-in-first-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-sign-in-with-google img {
+    width: 20px;
+    height: 15px;
+}
+
+@media screen and (max-width:1000px) {
+    .btn-sign-in-with-google {
+        width: 316px;
+        height: 42px;
+        margin: auto;
+        margin-top: 0.5rem;
+    }
+
+    .sign-in-register {
+        width: 316px;
+        height: 42px;
+        margin: auto;
+    }
+
+    .sign-in-first-section {
+        margin: auto;
+    }
+
+    .sign-in-first-section img {
+        margin-left: 5rem;
+        width: 30%;
+    }
+
+    .sign-in-first-section span {
+        font-size: 1.5rem;
+        height: 1rem;
+    }
+
+    .sign-in-card-container label {
+        font-family: 'Titillium Web';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.6733px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+        color: #D3D3D3;
+        margin-right: auto;
+        margin-left: 5rem;
+    }
+
+    .sign-in-card-container {
+        margin-top: 2rem;
+    }
+}

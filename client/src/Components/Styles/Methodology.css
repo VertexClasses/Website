@@ -1,0 +1,42 @@
+.title-methodology {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 91px;
+    letter-spacing: 0.05em;
+    color: #FF8D32;
+    margin-left: 8rem;
+}
+
+.methodology-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lower-section-methodology {
+    height: 16px;
+    background: #FFCB0F;
+    margin-top: 4rem;
+}
+
+.for-space {
+    padding: 3rem;
+    /* margin: 2rem; */
+}
+
+.study-material{
+    margin-top: 2.2rem;
+}
+
+@media screen and (max-width:1000px) {
+    .title-methodology {
+        font-size: 40px;
+        margin-left: 2rem;
+    }
+
+    .study-material{
+        margin-top: 0rem;
+    }
+}

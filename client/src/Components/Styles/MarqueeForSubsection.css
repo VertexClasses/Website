@@ -1,0 +1,47 @@
+.marquee123 {
+  width: 16000px; /* Adjust the width as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.marquee123 p {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid#F86600;
+  background-color: transparent;
+  /* border-radius: 5px; */
+  width: 250px;
+  text-align: center;
+}
+
+.marquee123-inner {
+  animation: marquee 3000s linear infinite;
+  white-space: nowrap;
+  display: inline-block;
+  transform: translateX(0%);
+}
+
+@keyframes marquee123 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .marquee123 p{
+    font-size: 12px;
+    padding: 1px;
+    width: 180px;
+  }
+}
